@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div id="login-page">
       <div id="login-card">
-        <h2>Welcome to WhatsChat</h2>
+        <h2>Welcome to Chat App</h2>
         <div
           className="login-button google"
           onClick={() =>
@@ -17,11 +17,6 @@ const Login = () => {
         >
           <GoogleOutlined />
           Sign In with Google
-        </div>
-        <br />
-        <div className="login-button facebook">
-          <FacebookOutlined />
-          Sign In with Facebook
         </div>
       </div>
     </div>
